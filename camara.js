@@ -24,6 +24,8 @@ camara_boton.addEventListener('click', async function () {
 });
 
 clic_boton.addEventListener('click', function () {
+    alert(video.videoWidth);
+    alert(canvas.width);
     if(video.videoWidth < 320){
         canvas.width = video.videoWidth;
         canvas.height = video.videoHeight;
